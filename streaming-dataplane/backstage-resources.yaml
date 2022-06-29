@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: streaming-dataplane-foo-ingress
+  annotations:
+    github.com/project-slug: celonis/foo-ingress
+    github.com/team-slug: celonis/developer-experience
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-label-selector: "app-selector=streaming-dataplane-foo-ingress"
+    backstage.io/kubernetes-id: streaming-dataplane-foo-ingress
+    argocd/app-name: streaming-dataplane-foo-ingress
+spec:
+  type: service
+  owner: developer-experience
+  lifecycle: experimental
+  system: dataplane
+  domain: streaming

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: backstage-resources-playground-locations
+spec:
+  type: url
+  targets:
+    - ./streaming-dataplane/backstage-resources.yaml
