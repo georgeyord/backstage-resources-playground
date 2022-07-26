@@ -2,40 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: backstage-resources-playground-locations
-  links:
-    - url: https://example.com/?q=brokenImage
-      title: brokenImage
-      icon: brokenImage
-    - url: https://example.com/?q=catalog
-      title: catalog
-      icon: catalog
-    - url: https://example.com/?q=chat
-      title: chat
-      icon: chat
-    - url: https://example.com/?q=dashboard
-      title: dashboard
-      icon: dashboard
-    - url: https://example.com/?q=docs
-      title: docs
-      icon: docs
-    - url: https://example.com/?q=email
-      title: email
-      icon: email
-    - url: https://example.com/?q=github
-      title: github
-      icon: github
-    - url: https://example.com/?q=group
-      title: group
-      icon: group
-    - url: https://example.com/?q=help
-      title: help
-      icon: help
-    - url: https://example.com/?q=user
-      title: user
-      icon: user
-    - url: https://example.com/?q=warning
-      title: warning
-      icon: warning
 spec:
   type: url
   targets:
